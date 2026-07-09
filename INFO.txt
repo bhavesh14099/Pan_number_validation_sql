@@ -1,0 +1,23 @@
+CLEANING DATA:
+1. handle missing values
+2. handle duplicates
+3. handle spaces(trim)
+4. handle \r, \n, \t (trim does not handle these)
+(separate cleaned table)
+
+VALIDATION OF DATA:
+4. pan no. 10 characters
+	1st 5 alphabetical (uppercase)
+	next 4 numeric
+	last 1 alphabet (uppercase)
+7. adjacent same not allowed  (function)
+8. sequential not allowed  (function)
+
+9. in above format then valid else invalid (view)
+
+SUMMARY REPORT:
+total records
+cleaned records
+valid
+invalid
+missing
